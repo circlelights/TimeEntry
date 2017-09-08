@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78123320134FACC3001B6319 /* TimeEntries.m in Sources */ = {isa = PBXBuildFile; fileRef = 7812331F134FACC3001B6319 /* TimeEntries.m */; };
+		786D6A08134E710F00130B12 /* timeEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 786D6A06134E710F00130B12 /* timeEntryViewController.m */; };
+		786D6A09134E710F00130B12 /* timeEntryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 786D6A07134E710F00130B12 /* timeEntryViewController.xib */; };
+		786D6A36134E744600130B12 /* chooseTheDateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 786D6A34134E744600130B12 /* chooseTheDateViewController.m */; };
+		786D6A37134E744600130B12 /* chooseTheDateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 786D6A35134E744600130B12 /* chooseTheDateViewController.xib */; };
+		786D6A3B134E752300130B12 /* addEntryModalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 786D6A39134E752300130B12 /* addEntryModalView.m */; };
+		786D6A3C134E752300130B12 /* addEntryModalView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 786D6A3A134E752300130B12 /* addEntryModalView.xib */; };
+		786D6A46134E7D5B00130B12 /* theCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 786D6A45134E7D5B00130B12 /* theCellView.xib */; };
+		788D1739134E5C8F00AFF0B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788D1738134E5C8F00AFF0B8 /* UIKit.framework */; };
+		788D173B134E5C8F00AFF0B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788D173A134E5C8F00AFF0B8 /* Foundation.framework */; };
+		788D173D134E5C8F00AFF0B8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788D173C134E5C8F00AFF0B8 /* CoreGraphics.framework */; };
+		788D173F134E5C8F00AFF0B8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788D173E134E5C8F00AFF0B8 /* CoreData.framework */; };
+		788D1745134E5C8F00AFF0B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 788D1743134E5C8F00AFF0B8 /* InfoPlist.strings */; };
+		788D1748134E5C8F00AFF0B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 788D1747134E5C8F00AFF0B8 /* main.m */; };
+		788D174B134E5C8F00AFF0B8 /* timeEntryAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 788D174A134E5C8F00AFF0B8 /* timeEntryAppDelegate.m */; };
+		788D174E134E5C8F00AFF0B8 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 788D174C134E5C8F00AFF0B8 /* MainWindow.xib */; };
+		788D1751134E5C8F00AFF0B8 /* timeEntry.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 788D174F134E5C8F00AFF0B8 /* timeEntry.xcdatamodeld */; };
+		788D1758134E5C8F00AFF0B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788D1738134E5C8F00AFF0B8 /* UIKit.framework */; };
+		788D1759134E5C8F00AFF0B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788D173A134E5C8F00AFF0B8 /* Foundation.framework */; };
+		788D175A134E5C8F00AFF0B8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788D173C134E5C8F00AFF0B8 /* CoreGraphics.framework */; };
+		788D175B134E5C8F00AFF0B8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788D173E134E5C8F00AFF0B8 /* CoreData.framework */; };
+		788D1763134E5C9000AFF0B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 788D1761134E5C9000AFF0B8 /* InfoPlist.strings */; };
+		788D1766134E5C9000AFF0B8 /* timeEntryTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 788D1765134E5C9000AFF0B8 /* timeEntryTests.h */; };
+		788D1768134E5C9000AFF0B8 /* timeEntryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 788D1767134E5C9000AFF0B8 /* timeEntryTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		788D175C134E5C8F00AFF0B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 788D172B134E5C8F00AFF0B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 788D1733134E5C8F00AFF0B8;
+			remoteInfo = timeEntry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7812331E134FACC3001B6319 /* TimeEntries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TimeEntries.h; path = ../TimeEntries.h; sourceTree = "<group>"; };
+		7812331F134FACC3001B6319 /* TimeEntries.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TimeEntries.m; path = ../TimeEntries.m; sourceTree = "<group>"; };
+		786D6A05134E710F00130B12 /* timeEntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timeEntryViewController.h; sourceTree = "<group>"; };
+		786D6A06134E710F00130B12 /* timeEntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = timeEntryViewController.m; sourceTree = "<group>"; };
+		786D6A07134E710F00130B12 /* timeEntryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = timeEntryViewController.xib; path = timeEntry/timeEntryViewController.xib; sourceTree = "<group>"; };
+		786D6A33134E744600130B12 /* chooseTheDateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chooseTheDateViewController.h; sourceTree = "<group>"; };
+		786D6A34134E744600130B12 /* chooseTheDateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = chooseTheDateViewController.m; sourceTree = "<group>"; };
+		786D6A35134E744600130B12 /* chooseTheDateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = chooseTheDateViewController.xib; path = timeEntry/chooseTheDateViewController.xib; sourceTree = "<group>"; };
+		786D6A38134E752300130B12 /* addEntryModalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addEntryModalView.h; sourceTree = "<group>"; };
+		786D6A39134E752300130B12 /* addEntryModalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addEntryModalView.m; sourceTree = "<group>"; };
+		786D6A3A134E752300130B12 /* addEntryModalView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = addEntryModalView.xib; path = timeEntry/addEntryModalView.xib; sourceTree = "<group>"; };
+		786D6A45134E7D5B00130B12 /* theCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = theCellView.xib; sourceTree = "<group>"; };
+		788D1734134E5C8F00AFF0B8 /* timeEntry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = timeEntry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		788D1738134E5C8F00AFF0B8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		788D173A134E5C8F00AFF0B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		788D173C134E5C8F00AFF0B8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		788D173E134E5C8F00AFF0B8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		788D1742134E5C8F00AFF0B8 /* timeEntry-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "timeEntry-Info.plist"; sourceTree = "<group>"; };
+		788D1744134E5C8F00AFF0B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		788D1746134E5C8F00AFF0B8 /* timeEntry-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "timeEntry-Prefix.pch"; sourceTree = "<group>"; };
+		788D1747134E5C8F00AFF0B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		788D1749134E5C8F00AFF0B8 /* timeEntryAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = timeEntryAppDelegate.h; sourceTree = "<group>"; };
+		788D174A134E5C8F00AFF0B8 /* timeEntryAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = timeEntryAppDelegate.m; sourceTree = "<group>"; };
+		788D174D134E5C8F00AFF0B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		788D1750134E5C8F00AFF0B8 /* timeEntry.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = timeEntry.xcdatamodel; sourceTree = "<group>"; };
+		788D1757134E5C8F00AFF0B8 /* timeEntryTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = timeEntryTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		788D1760134E5C9000AFF0B8 /* timeEntryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "timeEntryTests-Info.plist"; sourceTree = "<group>"; };
+		788D1762134E5C9000AFF0B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		788D1764134E5C9000AFF0B8 /* timeEntryTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "timeEntryTests-Prefix.pch"; sourceTree = "<group>"; };
+		788D1765134E5C9000AFF0B8 /* timeEntryTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = timeEntryTests.h; sourceTree = "<group>"; };
+		788D1767134E5C9000AFF0B8 /* timeEntryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = timeEntryTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		788D1731134E5C8F00AFF0B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788D1739134E5C8F00AFF0B8 /* UIKit.framework in Frameworks */,
+				788D173B134E5C8F00AFF0B8 /* Foundation.framework in Frameworks */,
+				788D173D134E5C8F00AFF0B8 /* CoreGraphics.framework in Frameworks */,
+				788D173F134E5C8F00AFF0B8 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		788D1753134E5C8F00AFF0B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788D1758134E5C8F00AFF0B8 /* UIKit.framework in Frameworks */,
+				788D1759134E5C8F00AFF0B8 /* Foundation.framework in Frameworks */,
+				788D175A134E5C8F00AFF0B8 /* CoreGraphics.framework in Frameworks */,
+				788D175B134E5C8F00AFF0B8 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		788D1729134E5C8F00AFF0B8 = {
+			isa = PBXGroup;
+			children = (
+				788D1771134E5CAC00AFF0B8 /* Resources */,
+				788D1740134E5C8F00AFF0B8 /* timeEntry */,
+				788D175E134E5C8F00AFF0B8 /* timeEntryTests */,
+				788D1737134E5C8F00AFF0B8 /* Frameworks */,
+				788D1735134E5C8F00AFF0B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		788D1735134E5C8F00AFF0B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				788D1734134E5C8F00AFF0B8 /* timeEntry.app */,
+				788D1757134E5C8F00AFF0B8 /* timeEntryTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		788D1737134E5C8F00AFF0B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				788D1738134E5C8F00AFF0B8 /* UIKit.framework */,
+				788D173A134E5C8F00AFF0B8 /* Foundation.framework */,
+				788D173C134E5C8F00AFF0B8 /* CoreGraphics.framework */,
+				788D173E134E5C8F00AFF0B8 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		788D1740134E5C8F00AFF0B8 /* timeEntry */ = {
+			isa = PBXGroup;
+			children = (
+				7812331E134FACC3001B6319 /* TimeEntries.h */,
+				7812331F134FACC3001B6319 /* TimeEntries.m */,
+				788D1749134E5C8F00AFF0B8 /* timeEntryAppDelegate.h */,
+				788D174A134E5C8F00AFF0B8 /* timeEntryAppDelegate.m */,
+				786D6A05134E710F00130B12 /* timeEntryViewController.h */,
+				786D6A06134E710F00130B12 /* timeEntryViewController.m */,
+				786D6A33134E744600130B12 /* chooseTheDateViewController.h */,
+				786D6A34134E744600130B12 /* chooseTheDateViewController.m */,
+				786D6A38134E752300130B12 /* addEntryModalView.h */,
+				786D6A39134E752300130B12 /* addEntryModalView.m */,
+				788D1741134E5C8F00AFF0B8 /* Supporting Files */,
+			);
+			path = timeEntry;
+			sourceTree = "<group>";
+		};
+		788D1741134E5C8F00AFF0B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				788D1747134E5C8F00AFF0B8 /* main.m */,
+				788D1742134E5C8F00AFF0B8 /* timeEntry-Info.plist */,
+				788D1743134E5C8F00AFF0B8 /* InfoPlist.strings */,
+				788D1746134E5C8F00AFF0B8 /* timeEntry-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		788D175E134E5C8F00AFF0B8 /* timeEntryTests */ = {
+			isa = PBXGroup;
+			children = (
+				788D1765134E5C9000AFF0B8 /* timeEntryTests.h */,
+				788D1767134E5C9000AFF0B8 /* timeEntryTests.m */,
+				788D175F134E5C9000AFF0B8 /* Supporting Files */,
+			);
+			path = timeEntryTests;
+			sourceTree = "<group>";
+		};
+		788D175F134E5C9000AFF0B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				788D1760134E5C9000AFF0B8 /* timeEntryTests-Info.plist */,
+				788D1761134E5C9000AFF0B8 /* InfoPlist.strings */,
+				788D1764134E5C9000AFF0B8 /* timeEntryTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		788D1771134E5CAC00AFF0B8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				788D174F134E5C8F00AFF0B8 /* timeEntry.xcdatamodeld */,
+				786D6A3A134E752300130B12 /* addEntryModalView.xib */,
+				786D6A45134E7D5B00130B12 /* theCellView.xib */,
+				786D6A07134E710F00130B12 /* timeEntryViewController.xib */,
+				786D6A35134E744600130B12 /* chooseTheDateViewController.xib */,
+				788D174C134E5C8F00AFF0B8 /* MainWindow.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		788D1733134E5C8F00AFF0B8 /* timeEntry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 788D176B134E5C9000AFF0B8 /* Build configuration list for PBXNativeTarget "timeEntry" */;
+			buildPhases = (
+				788D1730134E5C8F00AFF0B8 /* Sources */,
+				788D1731134E5C8F00AFF0B8 /* Frameworks */,
+				788D1732134E5C8F00AFF0B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = timeEntry;
+			productName = timeEntry;
+			productReference = 788D1734134E5C8F00AFF0B8 /* timeEntry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		788D1756134E5C8F00AFF0B8 /* timeEntryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 788D176E134E5C9000AFF0B8 /* Build configuration list for PBXNativeTarget "timeEntryTests" */;
+			buildPhases = (
+				788D1752134E5C8F00AFF0B8 /* Sources */,
+				788D1753134E5C8F00AFF0B8 /* Frameworks */,
+				788D1754134E5C8F00AFF0B8 /* Resources */,
+				788D1755134E5C8F00AFF0B8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				788D175D134E5C8F00AFF0B8 /* PBXTargetDependency */,
+			);
+			name = timeEntryTests;
+			productName = timeEntryTests;
+			productReference = 788D1757134E5C8F00AFF0B8 /* timeEntryTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		788D172B134E5C8F00AFF0B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "RR Donnelley";
+				TargetAttributes = {
+					788D1733134E5C8F00AFF0B8 = {
+						DevelopmentTeam = Q39FF877S4;
+					};
+				};
+			};
+			buildConfigurationList = 788D172E134E5C8F00AFF0B8 /* Build configuration list for PBXProject "timeEntry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 788D1729134E5C8F00AFF0B8;
+			productRefGroup = 788D1735134E5C8F00AFF0B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				788D1733134E5C8F00AFF0B8 /* timeEntry */,
+				788D1756134E5C8F00AFF0B8 /* timeEntryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		788D1732134E5C8F00AFF0B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788D1745134E5C8F00AFF0B8 /* InfoPlist.strings in Resources */,
+				788D174E134E5C8F00AFF0B8 /* MainWindow.xib in Resources */,
+				786D6A09134E710F00130B12 /* timeEntryViewController.xib in Resources */,
+				786D6A37134E744600130B12 /* chooseTheDateViewController.xib in Resources */,
+				786D6A3C134E752300130B12 /* addEntryModalView.xib in Resources */,
+				786D6A46134E7D5B00130B12 /* theCellView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		788D1754134E5C8F00AFF0B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788D1763134E5C9000AFF0B8 /* InfoPlist.strings in Resources */,
+				788D1766134E5C9000AFF0B8 /* timeEntryTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		788D1755134E5C8F00AFF0B8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		788D1730134E5C8F00AFF0B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788D1748134E5C8F00AFF0B8 /* main.m in Sources */,
+				788D174B134E5C8F00AFF0B8 /* timeEntryAppDelegate.m in Sources */,
+				788D1751134E5C8F00AFF0B8 /* timeEntry.xcdatamodeld in Sources */,
+				786D6A08134E710F00130B12 /* timeEntryViewController.m in Sources */,
+				786D6A36134E744600130B12 /* chooseTheDateViewController.m in Sources */,
+				786D6A3B134E752300130B12 /* addEntryModalView.m in Sources */,
+				78123320134FACC3001B6319 /* TimeEntries.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		788D1752134E5C8F00AFF0B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788D1768134E5C9000AFF0B8 /* timeEntryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		788D175D134E5C8F00AFF0B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 788D1733134E5C8F00AFF0B8 /* timeEntry */;
+			targetProxy = 788D175C134E5C8F00AFF0B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		788D1743134E5C8F00AFF0B8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				788D1744134E5C8F00AFF0B8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		788D174C134E5C8F00AFF0B8 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				788D174D134E5C8F00AFF0B8 /* en */,
+			);
+			name = MainWindow.xib;
+			path = timeEntry;
+			sourceTree = "<group>";
+		};
+		788D1761134E5C9000AFF0B8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				788D1762134E5C9000AFF0B8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		788D1769134E5C9000AFF0B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		788D176A134E5C9000AFF0B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		788D176C134E5C9000AFF0B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = Q39FF877S4;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "timeEntry/timeEntry-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "timeEntry/timeEntry-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Circlelights-Co.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		788D176D134E5C9000AFF0B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = Q39FF877S4;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "timeEntry/timeEntry-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "timeEntry/timeEntry-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Circlelights-Co.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		788D176F134E5C9000AFF0B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/timeEntry.app/timeEntry";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "timeEntryTests/timeEntryTests-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "timeEntryTests/timeEntryTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Circlelights-Co.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		788D1770134E5C9000AFF0B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/timeEntry.app/timeEntry";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "timeEntryTests/timeEntryTests-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "timeEntryTests/timeEntryTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Circlelights-Co.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		788D172E134E5C8F00AFF0B8 /* Build configuration list for PBXProject "timeEntry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				788D1769134E5C9000AFF0B8 /* Debug */,
+				788D176A134E5C9000AFF0B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		788D176B134E5C9000AFF0B8 /* Build configuration list for PBXNativeTarget "timeEntry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				788D176C134E5C9000AFF0B8 /* Debug */,
+				788D176D134E5C9000AFF0B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		788D176E134E5C9000AFF0B8 /* Build configuration list for PBXNativeTarget "timeEntryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				788D176F134E5C9000AFF0B8 /* Debug */,
+				788D1770134E5C9000AFF0B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		788D174F134E5C8F00AFF0B8 /* timeEntry.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				788D1750134E5C8F00AFF0B8 /* timeEntry.xcdatamodel */,
+			);
+			currentVersion = 788D1750134E5C8F00AFF0B8 /* timeEntry.xcdatamodel */;
+			name = timeEntry.xcdatamodeld;
+			path = timeEntry/timeEntry.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 788D172B134E5C8F00AFF0B8 /* Project object */;
+}
