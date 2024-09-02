@@ -9,13 +9,13 @@
     
     IBOutlet UILabel *datedisplayed;
     NSTimer *theDay;
-    UIPopoverController *pickadate;
+    UIModalPresentationStyle *pickadate;
     UITableViewCell *theCell;
     UITableViewCell *theHeaderCell;
 }
 
 @property (nonatomic, retain) UILabel *datedisplayed;
-@property (nonatomic, retain) UIPopoverController *pickadate;
+@property (nonatomic, assign) UIModalPresentationStyle *pickadate;
 @property (nonatomic, assign) IBOutlet UITableViewCell *theCell;
 @property (nonatomic, assign) IBOutlet UITableViewCell *theHeaderCell;
 @property (nonatomic, retain, readonly) NSManagedObjectContext *managedObjectContext;

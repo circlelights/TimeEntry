@@ -15,20 +15,30 @@ NSMutableArray *listOfMovies;
 
 //Popover window displays through this Method, dd is for different date
 -(IBAction)dateChanged: (id) sender{
-    if ([pickadate isPopoverVisible])	{
-        [pickadate dismissPopoverAnimated:YES];
-	}
-	else {
-        chooseTheDateViewController *dd = [[chooseTheDateViewController alloc] init];
-        dd.datedelegate = self;
-        pickadate = [[UIPopoverController alloc]
-                     initWithContentViewController:dd];
-        [dd release];
-        
-        pickadate.popoverContentSize = CGSizeMake(275, 325);
-        [pickadate presentPopoverFromBarButtonItem:sender 
-                          permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
+    UIViewController *viewController = [[UIViewController alloc] init];
+    viewController.modalPresentationStyle = UIModalPresentationPopover;
+
+    UIPopoverPresentationController *popoverController = viewController.popoverPresentationController;
+    if (popoverController) {
+        viewController.preferredContentSize = CGSizeMake(275, 325);
+        // Configure the popoverPresentationController as needed
     }
+
+
+//    if ([pickadate isPopoverVisible])	{
+//        [pickadate dismissPopoverAnimated:YES];
+//	}
+//	else {
+//        chooseTheDateViewController *dd = [[chooseTheDateViewController alloc] init];
+//        dd.datedelegate = self;
+//        pickadate = [[UIPopoverController alloc]
+//                     initWithContentViewController:dd];
+//        [dd release];
+//        
+//        pickadate.popoverContentSize = CGSizeMake(275, 325);
+//        [pickadate presentPopoverFromBarButtonItem:sender
+//                          permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
+//    }
 }  
 
 
