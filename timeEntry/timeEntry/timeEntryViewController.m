@@ -62,7 +62,9 @@ NSMutableArray *listOfMovies;
     
     ent.modalTransitionStyle = UIModalTransitionStylePartialCurl;
     ent.modalPresentationStyle = UIModalPresentationFullScreen;
-    [self presentModalViewController:ent animated:YES];
+    //[self presentModalViewController:ent animated:YES];
+    [self presentViewController:ent animated:YES completion:nil];
+
     
     [entry release];
     [ent release];
@@ -70,8 +72,10 @@ NSMutableArray *listOfMovies;
 
 - (void)doneButtonPressed: (NSMutableArray *)entries  
 {
-    [self dismissModalViewControllerAnimated:YES];
-    /*   
+    [self dismissViewControllerAnimated:YES completion:nil];
+
+    //[self dismissModalViewControllerAnimated:YES];
+    /*
     NSString *message = 
     [[NSString alloc]
      initWithFormat:@"The entry is %@, %@ and %@",

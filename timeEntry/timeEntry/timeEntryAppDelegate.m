@@ -74,6 +74,7 @@
 
 - (void)awakeFromNib
 {
+    [super awakeFromNib];  // Call the superclass's implementation
     /*
      Typically you should set up the Core Data stack here, usually by passing the managed object context to the first view controller.
      self.<#View controller#>.managedObjectContext = self.managedObjectContext;
@@ -115,7 +116,10 @@
     NSPersistentStoreCoordinator *coordinator = [self persistentStoreCoordinator];
     if (coordinator != nil)
     {
-        __managedObjectContext = [[NSManagedObjectContext alloc] initWithConcurrencyType];
+
+        NSManagedObjectContext *context = [[NSManagedObjectContext alloc] initWithConcurrencyType:NSMainQueueConcurrencyType];
+
+       // __managedObjectContext = [[NSManagedObjectContext alloc] initWithConcurrencyType];
         [__managedObjectContext setPersistentStoreCoordinator:coordinator];
     }
     return __managedObjectContext;
